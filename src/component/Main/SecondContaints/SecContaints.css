@@ -1,0 +1,27 @@
+.second-hightlight-wrapper {
+    background-image: url("../../../images/home/iphone_12_pronew.jpg");
+    height: 580px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: initial;
+    /* background-color: #0f0f10; */
+    text-align: center;
+    padding: 65px 20px;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 2%;
+
+    
+}
+
+
+@media (min-width: 768px) {
+    .second-hightlight-wrapper {
+        background-image: url("../../../images/home/iphone12_pro.jpg");
+        min-height: 692px;
+    margin-bottom: 1%;
+
+
+
+        
+    }
+}

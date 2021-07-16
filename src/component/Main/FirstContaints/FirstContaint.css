@@ -1,0 +1,42 @@
+.first-hightlight-wrapper {
+    background-image: url("../../../images/home/New.jpeg");
+    height: 580px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: initial;
+    background-color: #fbfbfd;
+    text-align: center;
+    padding: 65px 20px;
+    color: #fbfbfd;
+    /* margin-bottom: 1%; */
+
+}
+
+/* .price-wrapper {
+    color: #9c9ca1;
+    margin-bottom: 1%;
+} */
+
+.ipod-caption {
+    color: #86868b;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    /* padding-top: 310px; */
+}
+
+
+/* Meadia Query */
+
+@media (min-width: 768px) {
+    .first-hightlight-wrapper {
+        background-image: url("../../../images/home/iphone_12.jpg");
+        min-height: 692px;
+        margin-bottom: 1%;
+
+    }
+    .ipod-caption {
+        padding-top: 415px;
+    }
+}

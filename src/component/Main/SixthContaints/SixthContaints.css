@@ -1,0 +1,32 @@
+.sixth-heghlight-wrapper .left-side-wrapper .left-side-container {
+    background-image: url("../../../images/home/apple-card-large.jpg");
+    /* background-color: #000; */
+    background-position: bottom;
+    padding-top: 35px;
+    margin: 0 0 10px 0;
+    background-size: cover;
+}
+
+.sixth-heghlight-wrapper .right-side-wrapper .right-side-container {
+    background-image: url("../../../images/home/promo_coda.jpg");
+    background-color: #fbfbfd;
+    background-position: bottom;
+    padding-top: 35px;
+    margin: 0 0 10px 0;
+    background-size: auto;
+}
+
+@media (min-width: 768px) {
+    .sixth-heghlight-wrapper .left-side-wrapper .left-side-container {
+        background-image: url("../../../images/home/apple-card-large.jpg");
+        margin: 5px 5px 10px 10px;
+        background-color: black
+    }
+    .sixth-heghlight-wrapper .right-side-wrapper .right-side-container {
+        background-image: url("../../../images/home/promo_coda.jpg");
+        margin: 5px 10px 10px 5px;
+    }
+    .sixth-heghlight-wrapper .links-wrapper {
+        max-width: 500px;
+    }
+}
